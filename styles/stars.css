@@ -1,0 +1,33 @@
+.stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .stars__star {
+    margin-right: 4px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 15px;
+    height: 15px;
+    background: url(../images/star.svg) no-repeat;
+    background-position: center; }
+  .stars--1 :nth-last-child(1n+5),
+  .stars--2 :nth-last-child(1n+4),
+  .stars--3 :nth-last-child(1n+3),
+  .stars--4 :nth-last-child(1n+2),
+  .stars--5 :nth-last-child(1n+1) {
+    background: url(../images/star-active.svg) no-repeat;
+    background-position: center; }
+  .stars__reviews {
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: normal;
+    display: block;
+    font-size: 11px;
+    font-family: Roboto, sans-serif; }
+
+/*# sourceMappingURL=stars.css.map */
