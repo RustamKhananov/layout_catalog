@@ -22,16 +22,18 @@
     display: block;
     width: 160px;
     height: 134px;
-    margin: 12px auto 42px;
+    margin: 9px auto 39px;
     -webkit-transition: margin 1s, -webkit-transform 1s;
     transition: margin 1s, -webkit-transform 1s;
     transition: transform 1s, margin 1s;
-    transition: transform 1s, margin 1s, -webkit-transform 1s; }
+    transition: transform 1s, margin 1s, -webkit-transform 1s;
+    will-change: transform;
+    padding: 3px; }
     .card__photo:hover {
       border-color: #f3f3f3;
-      margin: -1px 2px 55px;
-      -webkit-transform: scale(1.2);
-              transform: scale(1.2); }
+      margin: -5px 0 53px;
+      -webkit-transform: scale(1.16);
+              transform: scale(1.16); }
   .card__productName {
     display: block;
     font-size: 12px;
