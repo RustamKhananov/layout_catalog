@@ -21,6 +21,24 @@
     width: 160px;
     height: 134px;
     margin: 15px auto 45px; }
+    .card__photo:hover {
+      border: 3px solid #f3f3f3;
+      border-radius: 5px;
+      margin: 12px 2px 42px;
+      -webkit-animation: img-grow 0.5s both linear;
+              animation: img-grow 0.5s both linear; }
+
+@-webkit-keyframes img-grow {
+  100% {
+    width: 194px;
+    height: 165px;
+    margin: -16px -15px 39px; } }
+
+@keyframes img-grow {
+  100% {
+    width: 194px;
+    height: 165px;
+    margin: -16px -15px 39px; } }
   .card__productName {
     display: block;
     font-size: 12px;
@@ -59,7 +77,9 @@
     margin: 20px auto 0;
     border: 1px solid #00acdc;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box; }
+            box-sizing: border-box;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
     .card__buy:hover {
       background-color: white;
       color: #00acdc; }
