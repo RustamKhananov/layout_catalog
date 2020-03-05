@@ -20,20 +20,18 @@
     border: 3px solid white;
     border-radius: 5px;
     display: block;
-    width: 160px;
+    width: 158px;
     height: 134px;
-    margin: 9px auto 39px;
-    -webkit-transition: margin 1s, -webkit-transform 1s;
-    transition: margin 1s, -webkit-transform 1s;
-    transition: transform 1s, margin 1s;
-    transition: transform 1s, margin 1s, -webkit-transform 1s;
+    margin: 0 auto 29px;
+    -webkit-transition: 0.5s, border 0s;
+    transition: 0.5s, border 0s;
     will-change: transform;
-    padding: 3px; }
+    padding: 10px 3px; }
     .card__photo:hover {
       border-color: #f3f3f3;
-      margin: -5px 0 53px;
-      -webkit-transform: scale(1.16);
-              transform: scale(1.16); }
+      margin: -3px auto 32px;
+      -webkit-transform: scale(1.17);
+              transform: scale(1.17); }
   .card__productName {
     display: block;
     font-size: 12px;
