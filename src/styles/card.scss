@@ -4,8 +4,6 @@
   flex-direction: column;
   box-sizing: border-box;
   width: 200px;
-
-  // margin: 0 24px 50px;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
   background-color: white;
@@ -13,12 +11,26 @@
   font-weight: 500;
   font-style: normal;
   padding: 15px 14px;
+
   &__photo {
+    border: 3px solid white;
+    border-radius: 5px;
     display: block;
-    width: 160px;
+    width: 158px;
     height: 134px;
-    margin: 15px auto 45px;
+    margin: 0 auto 29px;
+    transition: 0.5s, border 0s;
+    will-change: transform;
+    padding: 10px 3px;
+
+    &:hover {
+      border-color: #f3f3f3;
+      margin: -3px auto 32px;
+      transform: scale(1.17) ;
+
+    }
   }
+
   &__productName {
     display: block;
     font-size: 12px;
@@ -60,10 +72,10 @@
     margin: 20px auto 0;
     border: 1px solid #00acdc;
     box-sizing: border-box;
+    transition: 0.3s;
     &:hover {
       background-color: white;
       color: #00acdc;
     }
   }
-
 }
